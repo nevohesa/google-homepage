@@ -1,0 +1,16 @@
+@import url("reset.css"); /* Reset all CSS default values */
+
+* {
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+#list-nav {
+    display: flex;
+}
