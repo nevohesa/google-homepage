@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 
-
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Google Hompage</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="nav-bar">
-        <ul id="list-nav">
-            <li class="nav-link-left"><a href="#about">About</a></li>
-            <li class="nav-link-left"><a href="#store">Store</a></li>
-            <li><a href="#gmail" class="nav-link-right">Gmail</a></li>
-            <li><a href="#images" class="nav-link-right">Images</a></li>
-            <li><a href="#squares" class="nav-link-right">Squares</a></li>
-            <li><button id="sign-in" value="sign-in">Sign In</button></li>
-        </ul>
+      <ul id="list-nav-left">
+        <li class="nav-link-left"><a href="#about">About</a></li>
+        <li class="nav-link-left"><a href="#store">Store</a></li>
+      </ul>
+      <ul id="list-nav-right">
+        <li><a href="#gmail" class="nav-link-right">Gmail</a></li>
+        <li><a href="#images" class="nav-link-right">Images</a></li>
+        <li><img id="squares_icon" src="https://image.flaticon.com/icons/svg/80/80975.svg" width="17px" class="nav-link-right"></a></li>
+        <li><button id="sign-in" value="sign-in" class="nav-link-right">Sign In</button></li>
+      </ul>
     </div>
 
     <div id="main-content">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        <form id="search-form">
-            <div id="search-div">
-                <span id="left-icon"><img
-                         src="https://kelem7.github.io/google-homepage/img/magnifying-glass.png" width="28px"></span>
-                <span id="search-span"><input id="search-box" type="text"></span>
-                <span id="right-icon"><img
-                         src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
-                         width="25px"></span>
-            </div>
-            <button id="search" value="search" form="search-form">Search</button>
-            <button id="lucky" value="lucky" form="search-form">I'm Feeling Lucky</button>
-        </form>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google Logo" width="280px"
+      />
+      <form id="search-form">
+        <div id="search-div">
+          <span id="left-icon"
+            ><img
+              src="https://kelem7.github.io/google-homepage/img/magnifying-glass.png"
+              width="28px"
+          /></span>
+          <div id="search-span-div"><input id="search-box" type="text" /></div>
+          <span id="right-icon"
+            ><img
+              src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"
+              width="25px"
+          /></span>
+        </div>
+      </form>
+      <div id="buttons-div">
+        <button id="search" value="search" form="search-form" class="buttons">
+          Google Search
+        </button>
+        <button id="lucky" value="lucky" form="search-form" class="buttons">
+          I'm Feeling Lucky
+        </button>
+      </div>
     </div>
 
     <footer id="footer">
-        <ul>
-            <li><a href="#advertising" class="footer-link-left">Advertising</a></li>
-            <li><a href="#business" class="footer-link-left">Business</a></li>
-            <li><a href="#how" class="footer-link-left">How Search Works</a></li>
-            <li><a href="#privacy" class="footer-link-right">Privacy</a></li>
-            <li><a href="#terms" class="footer-link-right">Terms</a></li>
-            <li><a href="#settings" class="footer-link-right">Settings</a></li>
-
-        </ul>
+      <ul id="footer-list-left">
+        <li><a href="#advertising" class="footer-link-left">Advertising</a></li>
+        <li><a href="#business" class="footer-link-left">Business</a></li>
+        <li><a href="#how" class="footer-link-left">How Search Works</a></li>
+      </ul>
+      <ul id="footer-list-right">
+        <li><a href="#privacy" class="footer-link-right">Privacy</a></li>
+        <li><a href="#terms" class="footer-link-right">Terms</a></li>
+        <li><a href="#settings" class="footer-link-right">Settings</a></li>
+      </ul>
     </footer>
-
-</body>
-
+  </body>
 </html>
